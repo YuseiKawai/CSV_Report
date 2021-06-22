@@ -1,7 +1,7 @@
 name: "OtsukaCSV"
 title: "CSV Monthly Report"
 description: |
-  CSV
+  CSV Montly Rerpot
 output_dir: "_site"
 navbar:
   right:
