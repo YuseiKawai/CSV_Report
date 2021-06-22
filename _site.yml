@@ -1,5 +1,5 @@
 name: "OtsukaCSV"
-title: "CSV"
+title: "CSV Monthly Report"
 description: |
   CSV
 output_dir: "_site"
