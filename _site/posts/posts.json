@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/2021-06-22-2021-03/",
-    "title": "2021-03",
-    "description": "A short description of the post.",
-    "author": [
-      {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2021-06-22",
-    "categories": [],
-    "contents": "\naaaaa\nakkakakka\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-06-22T15:17:23+09:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/welcome/",
     "title": "Welcome to CSV",
     "description": "Welcome to our new blog, CSV. We hope you enjoy \nreading what we have to say!",
@@ -32,5 +15,22 @@
     "preview": {},
     "last_modified": "2021-06-22T09:46:21+09:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2021-06-22-2021-03/",
+    "title": "2021-03",
+    "description": "test test  test",
+    "author": [
+      {
+        "name": "Yusei Kawai",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-03-22",
+    "categories": [],
+    "contents": "\n文書管理システム\nOverview & Milestone\n文書管理システムWBS参照\nHeighlight\nKick-off Meeting 開催\nCSV記録のPM内レビュー\nシステム情報収集開始\nシステム検証方法の検討\nテスト環境取得に向けたRecorとの打ち合わせ\nワークショップ開始 w/VS\nMilestone\n文書管理システムWBS参照\nRisk & Concerns\nCSV実施要領参照\n来月の予定\nAgatha（アガサ） / NRI（PermaDoc） とのRFI打ち合わせ\nカスタマージャーニーマップからシステム検証方法の書き起こし\nVirjeの検証\nSimVision/Dockerなど他候補の検討\nSAP / WMS\nOverview & Milestone\n現状可能な範囲で範囲でCSVマスタープランを完成させる。\nHeighlight\nOMD SCM 及び KiSCO QA と実施しているCSV定例会にて、CSV記録への記載事項を協議。\nMilestone\n「マスタープラン 実施期間」のセッション参照。\n6月までにマスタープラン、実施要領、要件定義書をまとめる。\nRisk & Concerns\nUATまでに上記マイルストーンを達成できない。\n来月の予定\nStealing Committee with J-SOL\nSEAOSとのシステム格納情報とそのUIに関する打ち合わせ\nシステムのリスクアセスメント\n教育訓練システム\nOverview & Milestone\nナレッジデリWBS参照\nHeighlight\nPMメンバー（堀江、河合）、業務担当（中西）、IT担当（重村）におけるチームビルディング。推進体制の確立。\nWMSと、それぞれのタスクオーナーについて目線合わせ。\nシステム企画プロセスの開始（マスタープラン、実施要領などの作成着手）\nシステムベンダーとの対話（重村さんを通じて）\nMilestone\nナレッジデリWBS参照\nRisk & Concerns方針決定\nCSV実施要領参照\n来月の予定\n稟議書作成\nCSV記録Version1の作成と承認\nナレッジデリ公式トレーニング受講\n大塚製薬担当者より、本システムCSVアクションについて情報収集\nQMS購買管理の方針決定\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-06-22T16:02:38+09:00",
+    "input_file": "2021-03.knit.md"
   }
 ]
