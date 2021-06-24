@@ -1,9 +1,11 @@
 ---
-title: "About this blog"
+title: "About this Page"
 description: |
-  Some additional details about the blog
+  This page is for CSV report by OMD-QMS team
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+* 本サイトはOMDが推進するComputarized System Validationの月次進捗を報告するためものである。
