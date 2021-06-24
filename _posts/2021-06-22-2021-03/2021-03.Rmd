@@ -1,10 +1,9 @@
 ---
 title: "2021-03"
 description: |
-  test test  test
+  情報システム導入に関する月次報告書
 author:
   - name: Yusei Kawai
-    url: https://example.com/norajones
 date: 03-22-2021
 output:
   distill::distill_article:
@@ -40,7 +39,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * カスタマージャーニーマップからシステム検証方法の書き起こし
 * Virjeの検証
 * SimVision/Dockerなど他候補の検討
-
+<br>
 
 ## 2. SAP / WMS
 ### Overview & Milestone
@@ -60,7 +59,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * Stealing Committee with J-SOL
 * SEAOSとのシステム格納情報とそのUIに関する打ち合わせ
 * システムのリスクアセスメント
-
+<br>
 
 ## 3. e-learning System
 
@@ -85,4 +84,4 @@ knitr::opts_chunk$set(echo = FALSE)
 * ナレッジデリ公式トレーニング受講
 * 大塚製薬担当者より、本システムCSVアクションについて情報収集
 * QMS購買管理の方針決定
-
+<br>
