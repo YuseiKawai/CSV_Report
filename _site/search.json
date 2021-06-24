@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "About this Page",
+      "description": "This page is for CSV report by OMD-QMS team",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-06-22T15:49:54+09:00"
+      "contents": "\n本サイトはOMDが推進するComputarized System Validationの月次進捗を報告するためものである。\n\n\n\n",
+      "last_modified": "2021-06-24T10:00:07+09:00"
     },
     {
       "path": "index.html",
       "title": "CSV",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-06-22T15:49:54+09:00"
+      "last_modified": "2021-06-24T09:59:35+09:00"
     }
   ],
   "collections": ["posts/posts.json"]
