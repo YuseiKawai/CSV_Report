@@ -1,0 +1,79 @@
+---
+title: "2021-06"
+description: |
+  情報システム導入に関する月次報告書
+author:
+  - name: Yusei Kawai / Asako Horie
+    url: https://example.com/norajones
+date: 06-22-2021
+output:
+  distill::distill_article:
+    toc: true
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## 1. SAP / WMS
+### Overview & Milestone
+* CSVマスタープラン「c.実施機関」のセッション参照。
+
+### Highlight
+- UATマスタープラン、及びテストケースの作成
+- 過去成果物の把握
+- SAPのデモンストレーション
+- 契約書の締結準備
+
+### Milestone
+* CSVマスタープラン「c.実施機関」のセッション参照。
+
+### Risk & Concerns
+- iphoneアプリのセキュリティー問題の解決に時間を要し、UATを予定通り完結させることができない。
+
+### Plan for Next Month
+- テストケースの確定、バリデーションマスタープランの確定
+- UAT開始
+- 契約書案作成
+
+
+## 2. Doc Management System
+### Overview & Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Highlight
+- システムの検証と評価結果分析
+* システムの絞り込みとPJ推進責任者への報告
+
+### Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Risk & Concerns
+- 特になし。
+
+### Plan for Next Month
+- 運用法の骨子確立
+- 稟議書作成と担当役員への説明
+- CSV帳票の承認回覧
+
+
+## 3. e-learning system
+### Overview & Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Highlight
+- 教育訓練システム導入構想の確立
+
+### Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Risk & Concerns
+- 特になし。
+
+### Plan for Next Month
+- 稟議書承認のため、概要を担当役員へ説明
+
+
+## 4. Safety Database
+* 進捗なし

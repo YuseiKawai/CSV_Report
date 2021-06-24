@@ -1,0 +1,105 @@
+---
+title: "2021-05"
+description: |
+  情報システム導入に関する月次報告書
+author:
+  - name: Yusei Kawai
+    url: https://example.com/norajones
+date: 05-22-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# 1. Document Management System
+### Overview & Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Heighlight
+* Virjeの1回目検証終了。
+* PermaDocの公式デモンストレーション終了。
+* Qualio用検証プロトコル改定とベンダー共有
+* 調達管理のための帳票作成開始
+
+
+### Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Risk & Concerns
+* CSV実施要領参照
+
+### 来月の予定
+* Agatha詳細デモンストレーション実施
+* Qualio詳細デモンストレーション実施
+* PermaDoc / Agatha / Qualio1回目検証実施
+
+
+## 2. SAP / WMS
+### Overview & Milestone
+* CSVマスタープラン「c.実施機関」のセッション参照。
+
+### Heighlight
+* UATの実施方法についてKiSCOのQAと協議。
+* UAT開始のためのキックオフ実施。
+* タイムライン、成果物、推進体制をメンバーへ共有。
+* QA高嶋さん/田中さんへRDN臨床試験サンプルをスコープとしたUATの依頼。
+
+
+### Milestone
+* CSVマスタープラン「c.実施機関」のセッション参照。
+
+### Risk & Concerns
+* 6月実施予定のUATまでにテスト計画書が構築できない。
+
+### 来月の予定
+* マスタープラン、実施要領、要件定義書の承認回覧。
+* UATの定期的な進捗確認、成果物レビュー
+
+<br>
+
+
+## 3. e-learning System
+### Overview & Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Heighlight
+* 各部門との意見交換結果を検証
+* 現在実施されているトレーニングを種別、実施プラットフォームごとに分類
+* 調達管理帳票の作成
+* 稟議書作成と提出
+
+
+### Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Risk & Concerns方針決定
+* CSV実施要領参照
+
+### 来月の予定
+* トレーニング記録の管理方法協議
+* 今後のQMSトレーニングの展望協議
+* システム導入時期の仮決定
+
+
+## 4. Safety DB
+### Overview & Milestone
+* teams内 DB導入フロー参照
+
+### Heighlight
+* ITシステムのIn-Scopeを合意した。
+* システム導入までのタイムライン、OMD関係者との情報共有方法について共有した。
+* 関連会社と共通のシステムを導入する可能性について共有した。
+
+### Milestone
+* teams内 DB導入フロー参照
+
+### Risk & Concerns方針決定
+* NA
+
+### 来月の予定
+* PV内において、Recor / Veryan / KiSCO / JIMROとシステム導入方針を決定する。 
