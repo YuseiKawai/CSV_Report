@@ -14,7 +14,7 @@
     "contents": "\n\nContents\n1. SAP / WMS\nOverview & Milestone\nHighlight\nMilestone\nRisk & Concerns\nPlan for Next Month\n\n2. Doc Management System\nOverview & Milestone\nHighlight\nMilestone\nRisk & Concerns\nPlan for Next Month\n\n3. e-learning system\nOverview & Milestone\nHighlight\nMilestone\nRisk & Concerns\nPlan for Next Month\n\n4. Safety Database\n\n1. SAP / WMS\nOverview & Milestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nHighlight\nUATマスタープラン、及びテストケースの作成\n過去成果物の把握\nSAPのデモンストレーション\n契約書の締結準備\nMilestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nRisk & Concerns\niphoneアプリのセキュリティー問題の解決に時間を要し、UATを予定通り完結させることができない。\nPlan for Next Month\nテストケースの確定、バリデーションマスタープランの確定\nUAT開始\n契約書案作成\n2. Doc Management System\nOverview & Milestone\n文書管理システムWBS参照\nHighlight\nシステムの検証と評価結果分析\nシステムの絞り込みとPJ推進責任者への報告\nMilestone\n文書管理システムWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n運用法の骨子確立\n稟議書作成と担当役員への説明\nCSV帳票の承認回覧\n3. e-learning system\nOverview & Milestone\nナレッジデリWBS参照\nHighlight\n教育訓練システム導入構想の確立\nMilestone\nナレッジデリWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n稟議書承認のため、概要を担当役員へ説明\n4. Safety Database\n進捗なし\n\n\n\n",
     "preview": {},
     "last_modified": "2021-06-24T10:31:24+09:00",
-    "input_file": "2021-06.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-06-24-2021-05/",
@@ -31,7 +31,7 @@
     "contents": "\n1. Document Management System\nOverview & Milestone\n文書管理システムWBS参照\nHeighlight\nVirjeの1回目検証終了。\nPermaDocの公式デモンストレーション終了。\nQualio用検証プロトコル改定とベンダー共有\n調達管理のための帳票作成開始\nMilestone\n文書管理システムWBS参照\nRisk & Concerns\nCSV実施要領参照\n来月の予定\nAgatha詳細デモンストレーション実施\nQualio詳細デモンストレーション実施\nPermaDoc / Agatha / Qualio1回目検証実施\n2. SAP / WMS\nOverview & Milestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nHeighlight\nUATの実施方法についてKiSCOのQAと協議。\nUAT開始のためのキックオフ実施。\nタイムライン、成果物、推進体制をメンバーへ共有。\nQA高嶋さん/田中さんへRDN臨床試験サンプルをスコープとしたUATの依頼。\nMilestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nRisk & Concerns\n6月実施予定のUATまでにテスト計画書が構築できない。\n来月の予定\nマスタープラン、実施要領、要件定義書の承認回覧。\nUATの定期的な進捗確認、成果物レビュー\n\n3. e-learning System\nOverview & Milestone\nナレッジデリWBS参照\nHeighlight\n各部門との意見交換結果を検証\n現在実施されているトレーニングを種別、実施プラットフォームごとに分類\n調達管理帳票の作成\n稟議書作成と提出\nMilestone\nナレッジデリWBS参照\nRisk & Concerns方針決定\nCSV実施要領参照\n来月の予定\nトレーニング記録の管理方法協議\n今後のQMSトレーニングの展望協議\nシステム導入時期の仮決定\n4. Safety DB\nOverview & Milestone\nteams内 DB導入フロー参照\nHeighlight\nITシステムのIn-Scopeを合意した。\nシステム導入までのタイムライン、OMD関係者との情報共有方法について共有した。\n関連会社と共通のシステムを導入する可能性について共有した。\nMilestone\nteams内 DB導入フロー参照\nRisk & Concerns方針決定\nNA\n来月の予定\nPV内において、Recor / Veryan / KiSCO / JIMROとシステム導入方針を決定する。\n\n\n\n",
     "preview": {},
     "last_modified": "2021-06-24T10:31:19+09:00",
-    "input_file": "2021-05.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-06-22-2021-04/",
