@@ -8,6 +8,7 @@ author:
 date: 03-22-2021
 output:
   distill::distill_article:
+    toc: true
     self_contained: false
 ---
 
@@ -16,7 +17,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## 文書管理システム
+## 1. Document Management System
 ### Overview & Milestone
 * [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
 
@@ -41,8 +42,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * SimVision/Dockerなど他候補の検討
 
 
-## SAP / WMS
-
+## 2. SAP / WMS
 ### Overview & Milestone
 * 現状可能な範囲で範囲でCSVマスタープランを完成させる。
 
@@ -62,7 +62,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * システムのリスクアセスメント
 
 
-## 教育訓練システム
+## 3. e-learning System
 
 ### Overview & Milestone
 * [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
