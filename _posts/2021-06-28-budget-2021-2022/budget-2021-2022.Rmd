@@ -6,9 +6,9 @@ author:
   - name: Yusei Kawai / Asako Horie
 date: 06-28-2021
 output:
-  toc : true
   distill::distill_article:
     self_contained: false
+  toc : true
 ---
 
 
