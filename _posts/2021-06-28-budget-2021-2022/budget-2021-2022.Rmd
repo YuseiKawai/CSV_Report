@@ -3,7 +3,7 @@ title: "budget@2021-2022"
 description: |
   2021年、2022年のQMSシステム関連予算
 author:
-  - name: Yusei Kawai / Asako Horie
+  - name: Yusei Kawai
 date: 06-28-2021
 output:
   distill::distill_article:
@@ -16,6 +16,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+※下記、予想コストに対し30%多く見積もっております。
 
 ```{r table}
 system_bd <- dplyr::tibble(
