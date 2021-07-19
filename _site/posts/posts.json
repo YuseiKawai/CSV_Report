@@ -15,9 +15,9 @@
     ],
     "date": "2021-07-19",
     "categories": [],
-    "contents": "\n\nContents\n1. SAP / WMS\n2. Doc Management System\n3. e-learning system\n4. Safety Database\n\n\nh2{\npadding-top: 50px;\ncolor: #00ADB5;\n}\n1. SAP / WMS\nOverview & Milestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nHighlight\nUATマスタープラン、及びテストケースの作成\n移行テスト、統合テストの確認\nUAT実施体制の構築と共有\nインシデント管理のプロセス検討\nMilestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nRisk & Concerns\nUATを期限内に実施することができない\nPlan for Next Month\nVMP、テスト計画書の承認\nUAT開始\n2. Doc Management System\nOverview & Milestone\n文書管理システムWBS参照\nHighlight\nシステム選定\n稟議承認取得\nMilestone\n文書管理システムWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n運用法の骨子確立\n社内代表者共有\n3. e-learning system\nOverview & Milestone\nナレッジデリWBS参照\nHighlight\n稟議承認\nMilestone\nナレッジデリWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n11月導入に向けた具体的アクションの策定\n4. Safety Database\nPVマネージャー（エムシンク社） とAgatha（アガサ社）で検討中。\n\n\n\n",
+    "contents": "\n\nContents\n1. SAP / WMS\n2. Doc Management System\n3. e-learning system\n4. Safety Database\n5. Other\n\n\nh2{\npadding-top: 50px;\ncolor: #00ADB5;\n}\n1. SAP / WMS\nOverview & Milestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nHighlight\nUATマスタープラン、及びテストケースの作成\n移行テスト、統合テストの確認\nUAT実施体制の構築と共有\nインシデント管理のプロセス検討\nMilestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nRisk & Concerns\nUATを期限内に実施することができない\nPlan for Next Month\nVMP、テスト計画書の承認\nUAT開始\n2. Doc Management System\nOverview & Milestone\n文書管理システムWBS参照\nHighlight\nシステム選定\n稟議承認取得\nMilestone\n文書管理システムWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n運用法の骨子確立\n社内代表者共有\n3. e-learning system\nOverview & Milestone\nナレッジデリWBS参照\nHighlight\n稟議承認\nMilestone\nナレッジデリWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n11月導入に向けた具体的アクションの策定\n4. Safety Database\nPVマネージャー（エムシンク社） とAgatha（アガサ社）で検討中。\n5. Other\nCSV手順書のギャップ分析\n手順書と新QMS省令を比較し、齟齬の有無を確認した。結果、新QMS省令の内容は既存の手順書で説明できるため、急いでの手順書の改定は実施しないものとした。\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-07-19T12:09:40+09:00",
+    "last_modified": "2021-07-19T15:39:02+09:00",
     "input_file": "2021-07.knit.md"
   },
   {
