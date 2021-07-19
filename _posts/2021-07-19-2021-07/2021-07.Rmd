@@ -16,6 +16,12 @@ output:
     code_folding: true
 ---
 
+<style type= "text/css">
+h2{
+padding-top: 50px;
+color: #00ADB5;
+}
+</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
