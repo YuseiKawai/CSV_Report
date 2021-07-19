@@ -1,0 +1,80 @@
+---
+title: "2021-07"
+description: |
+  情報システム導入に関する月次報告書
+author:
+  - name: Yusei Kawai
+    url: {}
+    
+date: 07-19-2021
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1
+    self_contained: false
+    code_folding: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 1. SAP / WMS
+### Overview & Milestone
+* CSVマスタープラン「c.実施機関」のセッション参照。
+
+### Highlight
+- UATマスタープラン、及びテストケースの作成
+- 移行テスト、統合テストの確認
+- UAT実施体制の構築と共有
+- インシデント管理のプロセス検討
+
+### Milestone
+* CSVマスタープラン「c.実施機関」のセッション参照。
+
+### Risk & Concerns
+- UATを期限内に実施することができない
+
+### Plan for Next Month
+- VMP、テスト計画書の承認
+- UAT開始
+
+
+## 2. Doc Management System
+### Overview & Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Highlight
+* システム選定
+* 稟議承認取得
+
+### Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Risk & Concerns
+- 特になし。
+
+### Plan for Next Month
+* 運用法の骨子確立
+* 社内代表者共有
+
+## 3. e-learning system
+### Overview & Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Highlight
+* 稟議承認
+
+### Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Risk & Concerns
+- 特になし。
+
+### Plan for Next Month
+- 11月導入に向けた具体的アクションの策定
+
+
+## 4. Safety Database
+* PVマネージャー（エムシンク社） とAgatha（アガサ社）で検討中。

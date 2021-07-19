@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-07-19-2021-07/",
+    "title": "2021-07",
+    "description": "情報システム導入に関する月次報告書",
+    "author": [
+      {
+        "name": "Yusei Kawai",
+        "url": {}
+      }
+    ],
+    "date": "2021-07-19",
+    "categories": [],
+    "contents": "\n1. SAP / WMS\nOverview & Milestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nHighlight\nUATマスタープラン、及びテストケースの作成\n移行テスト、統合テストの確認\nUAT実施体制の構築と共有\nインシデント管理のプロセス検討\nMilestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nRisk & Concerns\nUATを期限内に実施することができない\nPlan for Next Month\nVMP、テスト計画書の承認\nUAT開始\n2. Doc Management System\nOverview & Milestone\n文書管理システムWBS参照\nHighlight\nシステム選定\n稟議承認取得\nMilestone\n文書管理システムWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n運用法の骨子確立\n社内代表者共有\n3. e-learning system\nOverview & Milestone\nナレッジデリWBS参照\nHighlight\n稟議承認\nMilestone\nナレッジデリWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n11月導入に向けた具体的アクションの策定\n4. Safety Database\nPVマネージャー（エムシンク社） とAgatha（アガサ社）で検討中。\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-07-19T11:29:48+09:00",
+    "input_file": "2021-07.knit.md"
+  },
+  {
     "path": "posts/2021-06-28-budget-2021-2022/",
     "title": "budget@2021-2022",
     "description": "2021年、2022年のQMSシステム関連予算",

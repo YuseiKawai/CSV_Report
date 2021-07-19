@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ※下記、予想コストに対し30%多く見積もっております。
-
+### コード詳細
 ```{r table}
 system_bd <- dplyr::tibble(
   System = c("Document Management", "e-learning"),
@@ -48,5 +48,6 @@ system_bd %>%
               column_labels.background.color ="#E8F6EF")
 
 ```
+
 
 
