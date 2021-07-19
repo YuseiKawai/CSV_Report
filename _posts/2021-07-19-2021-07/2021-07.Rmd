@@ -3,14 +3,15 @@ title: "2021-07"
 description: |
   情報システム導入に関する月次報告書
 author:
-  - name: Yusei Kawai
+  - name: "Yusei Kawai"
     url: {}
+  - name: "Asako Horie"
     
 date: 07-19-2021
 output:
   distill::distill_article:
     toc: true
-    toc_depth: 1
+    toc_depth: 2
     self_contained: false
     code_folding: true
 ---
