@@ -112,7 +112,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["budget@2021-2022"]},{"type":"character","attributes":{},"value":["2021年、2022年のQMSシステム関連予算"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Yusei Kawai"]}]}]},{"type":"character","attributes":{},"value":["06-28-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["budget@2021-2022"]},{"type":"character","attributes":{},"value":["2021年、2022年のQMSシステム関連予算"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Yusei Kawai"]}]}]},{"type":"character","attributes":{},"value":["06-28-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","code_folding"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2098,8 +2098,13 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="d-article">
-※下記、予想コストに対し30%多く見積もっております。 ### コード詳細
+<p>※下記、予想コストに対し30%多く見積もっております。</p>
+<h3 id="コード詳細">コード詳細</h3>
 <div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+Show code
+</summary>
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>system_bd</span> <span class='op'>&lt;-</span> <span class='fu'>dplyr</span><span class='fu'>::</span><span class='fu'><a href='https://tibble.tidyverse.org/reference/tibble.html'>tibble</a></span><span class='op'>(</span>
   System <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"Document Management"</span>, <span class='st'>"e-learning"</span><span class='op'>)</span>,
@@ -2130,12 +2135,13 @@ document.addEventListener('DOMContentLoaded', function() {
               column_labels.background.color <span class='op'>=</span><span class='st'>"#E8F6EF"</span><span class='op'>)</span>
 </code></pre>
 </div>
-<div id="fflopobwgg" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+</details>
+<div id="rdfeshrmnb" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#fflopobwgg .gt_table {
+#rdfeshrmnb .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2160,7 +2166,7 @@ document.addEventListener('DOMContentLoaded', function() {
   border-left-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_heading {
+#rdfeshrmnb .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2172,7 +2178,7 @@ document.addEventListener('DOMContentLoaded', function() {
   border-right-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_title {
+#rdfeshrmnb .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2182,7 +2188,7 @@ document.addEventListener('DOMContentLoaded', function() {
   border-bottom-width: 0;
 }
 
-#fflopobwgg .gt_subtitle {
+#rdfeshrmnb .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2192,13 +2198,13 @@ document.addEventListener('DOMContentLoaded', function() {
   border-top-width: 0;
 }
 
-#fflopobwgg .gt_bottom_border {
+#rdfeshrmnb .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_col_headings {
+#rdfeshrmnb .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2213,7 +2219,7 @@ document.addEventListener('DOMContentLoaded', function() {
   border-right-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_col_heading {
+#rdfeshrmnb .gt_col_heading {
   color: #333333;
   background-color: #E8F6EF;
   font-size: 100%;
@@ -2233,7 +2239,7 @@ document.addEventListener('DOMContentLoaded', function() {
   overflow-x: hidden;
 }
 
-#fflopobwgg .gt_column_spanner_outer {
+#rdfeshrmnb .gt_column_spanner_outer {
   color: #333333;
   background-color: #E8F6EF;
   font-size: 100%;
@@ -2245,15 +2251,15 @@ document.addEventListener('DOMContentLoaded', function() {
   padding-right: 4px;
 }
 
-#fflopobwgg .gt_column_spanner_outer:first-child {
+#rdfeshrmnb .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#fflopobwgg .gt_column_spanner_outer:last-child {
+#rdfeshrmnb .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#fflopobwgg .gt_column_spanner {
+#rdfeshrmnb .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2265,7 +2271,7 @@ document.addEventListener('DOMContentLoaded', function() {
   width: 100%;
 }
 
-#fflopobwgg .gt_group_heading {
+#rdfeshrmnb .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2287,7 +2293,7 @@ document.addEventListener('DOMContentLoaded', function() {
   vertical-align: middle;
 }
 
-#fflopobwgg .gt_empty_group_heading {
+#rdfeshrmnb .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2302,15 +2308,15 @@ document.addEventListener('DOMContentLoaded', function() {
   vertical-align: middle;
 }
 
-#fflopobwgg .gt_from_md > :first-child {
+#rdfeshrmnb .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#fflopobwgg .gt_from_md > :last-child {
+#rdfeshrmnb .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#fflopobwgg .gt_row {
+#rdfeshrmnb .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2329,7 +2335,7 @@ document.addEventListener('DOMContentLoaded', function() {
   overflow-x: hidden;
 }
 
-#fflopobwgg .gt_stub {
+#rdfeshrmnb .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2341,7 +2347,7 @@ document.addEventListener('DOMContentLoaded', function() {
   padding-left: 12px;
 }
 
-#fflopobwgg .gt_summary_row {
+#rdfeshrmnb .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2351,7 +2357,7 @@ document.addEventListener('DOMContentLoaded', function() {
   padding-right: 5px;
 }
 
-#fflopobwgg .gt_first_summary_row {
+#rdfeshrmnb .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2361,7 +2367,7 @@ document.addEventListener('DOMContentLoaded', function() {
   border-top-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_grand_summary_row {
+#rdfeshrmnb .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2371,7 +2377,7 @@ document.addEventListener('DOMContentLoaded', function() {
   padding-right: 5px;
 }
 
-#fflopobwgg .gt_first_grand_summary_row {
+#rdfeshrmnb .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2381,11 +2387,11 @@ document.addEventListener('DOMContentLoaded', function() {
   border-top-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_striped {
+#rdfeshrmnb .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#fflopobwgg .gt_table_body {
+#rdfeshrmnb .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2394,7 +2400,7 @@ document.addEventListener('DOMContentLoaded', function() {
   border-bottom-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_footnotes {
+#rdfeshrmnb .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2408,13 +2414,13 @@ document.addEventListener('DOMContentLoaded', function() {
   border-right-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_footnote {
+#rdfeshrmnb .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#fflopobwgg .gt_sourcenotes {
+#rdfeshrmnb .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2428,41 +2434,41 @@ document.addEventListener('DOMContentLoaded', function() {
   border-right-color: #D3D3D3;
 }
 
-#fflopobwgg .gt_sourcenote {
+#rdfeshrmnb .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#fflopobwgg .gt_left {
+#rdfeshrmnb .gt_left {
   text-align: left;
 }
 
-#fflopobwgg .gt_center {
+#rdfeshrmnb .gt_center {
   text-align: center;
 }
 
-#fflopobwgg .gt_right {
+#rdfeshrmnb .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#fflopobwgg .gt_font_normal {
+#rdfeshrmnb .gt_font_normal {
   font-weight: normal;
 }
 
-#fflopobwgg .gt_font_bold {
+#rdfeshrmnb .gt_font_bold {
   font-weight: bold;
 }
 
-#fflopobwgg .gt_font_italic {
+#rdfeshrmnb .gt_font_italic {
   font-style: italic;
 }
 
-#fflopobwgg .gt_super {
+#rdfeshrmnb .gt_super {
   font-size: 65%;
 }
 
-#fflopobwgg .gt_footnote_marks {
+#rdfeshrmnb .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
