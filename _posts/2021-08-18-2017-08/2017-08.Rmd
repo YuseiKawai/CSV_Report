@@ -40,10 +40,10 @@ knitr::opts_chunk$set(echo = FALSE)
 * WMSに関する保守契約の内容を確定した。
 
 ### Milestone
-8/30: CSV正式書類（SAPリリース）作成
-9/01: SAPリリース
-9/10: WSM部分再UAT修了
-9/15: CSV正式書類（WMSリリース）作成
+8/30: CSV正式書類（SAPリリース）作成  
+9/01: SAPリリース  
+9/10: WSM部分再UAT修了  
+9/15: CSV正式書類（WMSリリース）作成  
 
 ### Risk & Concerns
 - WMSの改修後UATが9月10日までに終了できず、テスト環境を再度構築しなければならない自体に陥ること。
