@@ -1,0 +1,129 @@
+---
+title: "2021-08"
+description: |
+  情報システム導入に関する月次報告書
+author:
+  - name: "Yusei Kawai"
+    url: {}
+  - name: "Asako Horie"
+    
+date: 08-19-2021
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    self_contained: false
+    code_folding: true
+---
+
+<style type= "text/css">
+h2{
+padding-top: 50px;
+color: #00ADB5;
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## 1. SAP / WMS
+### Overview & Milestone
+* CSVマスタープラン「c.実施機関」のセッション参照。
+
+### Highlight
+* UAT実施最中にWMS側で重篤なエラーが検出されたため、WMSのリリース時期を変更することとした。
+* WMSは検出されたエラーを改修し、再度UATを実施する。
+* SAPは予定通り、8/19までにシステム承認を行い、9/1 リリースを目標に進める。
+* WMSに関する保守契約の内容を確定した。
+
+### Milestone
+9/
+
+### Risk & Concerns
+- WMSの改修後UATが9月10日までに終了できず、テスト環境を再度構築しなければならない自体に陥ること。
+
+### Plan for Next Month
+- SAPリリース (9/1)
+- WMSリリース (9/13)
+- CSV修了 (9/13)
+- 保守契約締結 (8/31)
+
+
+## 2. Doc Management System
+### Overview & Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Highlight
+* システム運用検討
+* システムオプションの決定
+* 本番稼働までのスケジュールをNRIと合意
+* PermaDocの本年度来年度費用（予測）は以下の通り
+```{r table}
+system_bd <- dplyr::tibble(
+  System = c("PermaDocument", "ナレッジデリ"),
+  "2021" = c(2500000*1.1 + (332910*1.1), 405790*1.3),
+  "2022" = c(332910*1.1*12, 1623160),
+)
+
+library(tidyverse)
+library(gt)
+
+system_bd %>% 
+  gt::gt() %>%
+  fmt_currency(
+    columns = c("2021","2022"),
+    currency =  "JPY"
+  ) %>%
+  summary_rows(
+    columns = c("2021","2022"),
+    fns = list(
+      total = ~sum(.)),
+    formatter = fmt_currency,
+    currency = "JPY")%>%
+  tab_header(
+    title = "2021年、2022年のシステム関連予算"
+  )%>%
+  tab_footnote(
+    footnote = c("PDは1ヶ月間、KDは3カ月間で計算"),
+    locations = cells_column_labels(columns = "2021")
+  ) %>%
+  tab_options(table.width = 600, 
+              column_labels.background.color ="#E8F6EF",
+              table.font.names = "Hackgen")
+
+```
+
+### Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Risk & Concerns
+- 特になし。
+
+### Plan for Next Month
+* 運用法の骨子確立
+* 社内代表者共有
+
+## 3. e-learning system
+### Overview & Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Highlight
+* QMSトレーニングのマテリアル作成方法を検討。9月までに基礎部分の資料を作成し、その資料を参考に各プロセスの資料を作成する。
+
+### Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Risk & Concerns
+- 特になし。
+
+### Plan for Next Month
+- 契約締結
+
+
+## 4. Safety Database
+* エムシンクは先約が入ってしまったため、先約の仕様やスケジュール感に従わなければならず脱落
+* Agathaも3社協同が難しいので脱落
+* 韓国のCRScubeという会社のシステムを検討中。そこのEDCをOMDでも使用しており、DBとのリンクが可能なうえにリーズナブルというのが候補に挙がった理由。OMD単独で検討予定。
