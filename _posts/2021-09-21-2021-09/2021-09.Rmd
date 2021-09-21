@@ -1,0 +1,93 @@
+---
+title: "2021-09"
+description: |
+  情報システム導入に関する月次報告書
+author:
+  - name: Yusei Kawai
+    url: {}
+  - name: Asako Horie
+    url: {}
+date: 09-21-2021
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    self_contained: false
+    code_folding: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+<style type= "text/css">
+h2{
+padding-top: 50px;
+color: #00ADB5;
+}
+</style>
+
+
+
+## 1. SAP / WMS
+### Overview & Milestone
+* CSVマスタープラン「c.実施機関」のセッション参照。
+
+### Highlight
+* SAP S4 Hanaは9月1日リリース完了
+* WMSのVDR側単体テスト修了。
+* WMSの再UAT修了。大きな問題なし。
+
+
+### Milestone
+9月1日：SAPリリース
+9月10日：再度UAT修了
+9月24日：CSV記録作成完了
+9月30日：CSV報告書承認
+
+### Risk & Concerns
+特になし
+
+### Plan for Next Month
+- WMS正式リリース
+- SAP / WMSインシデント管理方法設定
+
+
+## 2. Doc Management System
+### Overview & Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Highlight
+* 部門長へ進捗状況共有
+* システム導入前打ち合わせ with NRI
+
+
+### Milestone
+* [文書管理システムWBS参照](https://www.notion.so/ed6dcca847ad45d396de0e79a217d6bd?v=5846dc73e818443081e8d0c721435b44)
+
+### Risk & Concerns
+- 特になし。
+
+### Plan for Next Month
+* 社内レクチャーの準備
+* 全社共有会で本システムのお披露目
+* UAT実施計画書作成と実施
+
+
+## 3. e-learning system
+### Overview & Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Highlight
+* 契約書作成中。
+
+### Milestone
+* [ナレッジデリWBS参照](https://www.notion.so/60cbfdfcf0d04703890693efe5c8ca43?v=98acbc6ce2024e69a172570f4662de21)
+
+### Risk & Concerns
+* 各自の業務が多く、11月後半までにQMSトレーニングの準備ができない。
+
+### Plan for Next Month
+- 契約書締結
+* QMSトレーニング骨子決定
+
