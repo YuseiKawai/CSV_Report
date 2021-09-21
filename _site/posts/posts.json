@@ -1,5 +1,26 @@
 [
   {
+    "path": "posts/2021-09-21-2021-09/",
+    "title": "2021-09",
+    "description": "情報システム導入に関する月次報告書",
+    "author": [
+      {
+        "name": "Yusei Kawai",
+        "url": {}
+      },
+      {
+        "name": "Asako Horie",
+        "url": {}
+      }
+    ],
+    "date": "2021-09-21",
+    "categories": [],
+    "contents": "\n\nContents\n1. SAP / WMS\n2. Doc Management System\n3. e-learning system\n\n\nh2{\npadding-top: 50px;\ncolor: #00ADB5;\n}\n1. SAP / WMS\nOverview & Milestone\nCSVマスタープラン「c.実施機関」のセッション参照。\nHighlight\nSAP S4 Hanaは9月1日リリース完了\nWMSのVDR側単体テスト修了。\nWMSの再UAT修了。大きな問題なし。\nMilestone\n9月1日：SAPリリース 9月10日：再度UAT修了 9月24日：CSV記録作成完了 9月30日：CSV報告書承認\nRisk & Concerns\n特になし\nPlan for Next Month\nWMS正式リリース\nSAP / WMSインシデント管理方法設定\n2. Doc Management System\nOverview & Milestone\n文書管理システムWBS参照\nHighlight\n部門長へ進捗状況共有\nシステム導入前打ち合わせ with NRI\nMilestone\n文書管理システムWBS参照\nRisk & Concerns\n特になし。\nPlan for Next Month\n社内レクチャーの準備\n全社共有会で本システムのお披露目\nUAT実施計画書作成と実施\n3. e-learning system\nOverview & Milestone\nナレッジデリWBS参照\nHighlight\n契約書作成中。\nMilestone\nナレッジデリWBS参照\nRisk & Concerns\n各自の業務が多く、11月後半までにQMSトレーニングの準備ができない。\nPlan for Next Month\n契約書締結\nQMSトレーニング骨子決定\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-09-21T16:00:49+09:00",
+    "input_file": "2021-09.knit.md"
+  },
+  {
     "path": "posts/2021-08-18-2017-08/",
     "title": "2021-08",
     "description": "情報システム導入に関する月次報告書",
